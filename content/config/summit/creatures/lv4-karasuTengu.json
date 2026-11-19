@@ -6,7 +6,9 @@
 		},
 		"faction" : "summit",
 		"level" : 4,
-		"upgrades" : [ "daitengu" ],
+		"upgrades" : [
+			"daitengu"
+		],
 		"cost" : {
 			"gold" : 400
 		},

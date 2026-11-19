@@ -7,7 +7,9 @@
 		"faction" : "summit",
 		"level" : 6,
 		"special" : false,
-		"upgrades" : [ "rasetsu" ],
+		"upgrades" : [
+			"rasetsu"
+		],
 		"cost" : {
 			"gold" : 950
 		},

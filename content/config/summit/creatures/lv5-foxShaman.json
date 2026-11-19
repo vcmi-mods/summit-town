@@ -6,7 +6,9 @@
 		},
 		"faction" : "summit",
 		"level" : 5,
-		"upgrades" : [ "tenko" ],
+		"upgrades" : [
+			"tenko"
+		],
 		"cost" : {
 			"gold" : 450
 		},
@@ -34,7 +36,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.forgetfulness",
 				"val" : 20,
-				"addInfo" : [ 1, 0 ]
+				"addInfo" : [
+					1,
+					0
+				]
 			}
 		},
 		"graphics" : {
@@ -59,7 +64,17 @@
 					"lowerX" : 37,
 					"lowerY" : -53
 				},
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				]
 			}
 		},
 		"sound" : {

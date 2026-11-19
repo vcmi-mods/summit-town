@@ -1,73 +1,73 @@
 {
-	"0_tane": {
-		"class": "taisho",
-		"female": true,
-		"texts": {
-			"name": "Tane",
-			"biography": "Tane was the daughter of a great warrior house and the wife of a castle lord, but she was never content to wait behind the walls. She raised a company of two hundred musketeers, armed and drilled them herself, and led them into battle in white armor with her own banner. When her husband's army was hard pressed, her volleys broke the enemy charge, and the men who had laughed at her company never laughed again. The yokai of the Summit, who respect anyone who can make that much noise, now let her command their archers.",
-			"specialty": {
-				"description": "Shooting creatures in the hero's army suffer no range penalty and deal 0.5% more ranged damage per hero level.",
-				"tooltip": "Unique Bonus: Musket Corps",
-				"name": "Musket Corps"
+	"0_tane" : {
+		"class" : "taisho",
+		"female" : true,
+		"texts" : {
+			"name" : "Tane",
+			"biography" : "Tane was the daughter of a great warrior house and the wife of a castle lord, but she was never content to wait behind the walls. She raised a company of two hundred musketeers, armed and drilled them herself, and led them into battle in white armor with her own banner. When her husband's army was hard pressed, her volleys broke the enemy charge, and the men who had laughed at her company never laughed again. The yokai of the Summit, who respect anyone who can make that much noise, now let her command their archers.",
+			"specialty" : {
+				"description" : "Shooting creatures in the hero's army suffer no range penalty and deal 0.5% more ranged damage per hero level.",
+				"tooltip" : "Unique Bonus: Musket Corps",
+				"name" : "Musket Corps"
 			}
 		},
-		"images": {
-			"specialtySmall": "summit/heroes/tane/spec-small.png",
-			"specialtyLarge": "summit/heroes/tane/spec-large.png",
-			"large": "summit/heroes/tane/portrait-large.png",
-			"small": "summit/heroes/tane/portrait-small.png"
+		"images" : {
+			"specialtySmall" : "summit/heroes/tane/spec-small.png",
+			"specialtyLarge" : "summit/heroes/tane/spec-large.png",
+			"large" : "summit/heroes/tane/portrait-large.png",
+			"small" : "summit/heroes/tane/portrait-small.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "lionDog",
-				"min": 10,
-				"max": 20
+				"creature" : "lionDog",
+				"min" : 10,
+				"max" : 20
 			},
 			{
-				"creature": "phantomCat",
-				"min": 4,
-				"max": 7
+				"creature" : "phantomCat",
+				"min" : 4,
+				"max" : 7
 			},
 			{
-				"creature": "shrineMaiden",
-				"min": 3,
-				"max": 5
+				"creature" : "shrineMaiden",
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "archery"
+				"level" : "basic",
+				"skill" : "archery"
 			},
 			{
-				"level": "basic",
-				"skill": "leadership"
+				"level" : "basic",
+				"skill" : "leadership"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"noDistancePenalty": {
-					"type": "NO_DISTANCE_PENALTY",
-					"limiters": [
+		"specialty" : {
+			"bonuses" : {
+				"noDistancePenalty" : {
+					"type" : "NO_DISTANCE_PENALTY",
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "SHOOTER"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "SHOOTER"
 						}
 					]
 				},
-				"rangedDamage": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeRanged",
-					"valueType": "BASE_NUMBER",
-					"updater": {
-						"type": "GROWS_WITH_LEVEL",
-						"valPer20": 10,
-						"stepSize": 1
+				"rangedDamage" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 10,
+						"stepSize" : 1
 					},
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "SHOOTER"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "SHOOTER"
 						}
 					]
 				}

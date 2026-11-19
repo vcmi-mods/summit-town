@@ -1,56 +1,56 @@
 {
-	"0_nagahide": {
-		"class": "taisho",
-		"female": false,
-		"texts": {
-			"name": "Nagahide",
-			"biography": "Nagahide rose from an unknown retainer to the master of a province through cunning, poison and betrayal, and was accused of every crime from murdering a shogun to burning the Great Buddha's hall. He was also a man of refined taste, a master of the tea ceremony who prized his kettle Hiragumo above his own life. When his last castle was surrounded, he packed the kettle with gunpowder rather than hand it over, and vanished in the blast. Some say he simply walked out of the smoke and up the mountain, still laughing, to build new engines of war for the yokai.",
-			"specialty": {
-				"name": "Ballista",
-				"tooltip": "Artillery Bonus: Ballista",
-				"description": "Increases the Attack and Defense skills of any Ballista by 30% for every 5 levels (rounded up)."
+	"0_nagahide" : {
+		"class" : "taisho",
+		"female" : false,
+		"texts" : {
+			"name" : "Nagahide",
+			"biography" : "Nagahide rose from an unknown retainer to the master of a province through cunning, poison and betrayal, and was accused of every crime from murdering a shogun to burning the Great Buddha's hall. He was also a man of refined taste, a master of the tea ceremony who prized his kettle Hiragumo above his own life. When his last castle was surrounded, he packed the kettle with gunpowder rather than hand it over, and vanished in the blast. Some say he simply walked out of the smoke and up the mountain, still laughing, to build new engines of war for the yokai.",
+			"specialty" : {
+				"name" : "Ballista",
+				"tooltip" : "Artillery Bonus: Ballista",
+				"description" : "Increases the Attack and Defense skills of any Ballista by 30% for every 5 levels (rounded up)."
 			}
 		},
-		"images": {
-			"specialtySmall": "summit/heroes/nagahide/spec-small.png",
-			"specialtyLarge": "summit/heroes/nagahide/spec-large.png",
-			"large": "summit/heroes/nagahide/portrait-large.png",
-			"small": "summit/heroes/nagahide/portrait-small.png"
+		"images" : {
+			"specialtySmall" : "summit/heroes/nagahide/spec-small.png",
+			"specialtyLarge" : "summit/heroes/nagahide/spec-large.png",
+			"large" : "summit/heroes/nagahide/portrait-large.png",
+			"small" : "summit/heroes/nagahide/portrait-small.png"
 		},
-		"spellbook": [
+		"spellbook" : [
 			"landMine"
 		],
-		"army": [
+		"army" : [
 			{
-				"creature": "lionDog",
-				"min": 10,
-				"max": 20
+				"creature" : "lionDog",
+				"min" : 10,
+				"max" : 20
 			},
 			{
-				"creature": "ballista",
-				"min": 1,
-				"max": 1
+				"creature" : "ballista",
+				"min" : 1,
+				"max" : 1
 			},
 			{
-				"creature": "shrineMaiden",
-				"min": 3,
-				"max": 5
+				"creature" : "shrineMaiden",
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "artillery"
+				"level" : "basic",
+				"skill" : "artillery"
 			},
 			{
-				"level": "basic",
-				"skill": "diplomacy"
+				"level" : "basic",
+				"skill" : "diplomacy"
 			}
 		],
-		"specialty": {
-			"creature": "ballista",
-			"creatureLevel": 5,
-			"stepSize": 30
+		"specialty" : {
+			"creature" : "ballista",
+			"creatureLevel" : 5,
+			"stepSize" : 30
 		}
 	}
 }

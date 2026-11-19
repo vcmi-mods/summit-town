@@ -6,7 +6,9 @@
 		},
 		"faction" : "summit",
 		"level" : 3,
-		"upgrades" : [ "kazeNoMiko" ],
+		"upgrades" : [
+			"kazeNoMiko"
+		],
 		"cost" : {
 			"gold" : 200
 		},
@@ -35,7 +37,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.dispel",
 				"val" : 20,
-				"addInfo" : [ 1, 0 ]
+				"addInfo" : [
+					1,
+					0
+				]
 			}
 		},
 		"stackExperience" : [
@@ -44,34 +49,89 @@
 					"subtype" : "primarySkill.attack",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "primarySkill.defence",
 					"type" : "PRIMARY_SKILL"
 				},
-				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
 				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
 				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		],
 		"graphics" : {
@@ -96,7 +156,17 @@
 					"lowerX" : 45,
 					"lowerY" : -34
 				},
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				]
 			}
 		},
 		"sound" : {

@@ -3,77 +3,135 @@
 		"types" : {
 			"shrineApproach" : {
 				"name" : "Shrine Approach",
-				"creatures" : [[ "lionDog" ]],
+				"creatures" : [
+					[
+						"lionDog"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "summit/map/dwellings/dwelling-1.def",
-						"mask" : [ "VVV", "VBB", "BAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"abandonedTemple" : {
 				"name" : "Abandoned Temple",
-				"creatures" : [[ "phantomCat" ]],
+				"creatures" : [
+					[
+						"phantomCat"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "summit/map/dwellings/dwelling-2.def",
-						"mask" : [ "VVV", "VBB", "BAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"kaguraHall" : {
 				"name" : "Kagura Hall",
-				"creatures" : [[ "shrineMaiden" ]],
+				"creatures" : [
+					[
+						"shrineMaiden"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "summit/map/dwellings/dwelling-3.def",
-						"mask" : [ "VVV", "VBB", "BAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"tenguCedar" : {
 				"name" : "Tengu Cedar",
-				"creatures" : [[ "karasuTengu" ]],
+				"creatures" : [
+					[
+						"karasuTengu"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "summit/map/dwellings/dwelling-4.def",
-						"mask" : [ "VVV", "VBB", "BAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			},
 			"inariShrine" : {
 				"name" : "Inari Shrine",
-				"creatures" : [[ "foxShaman" ]],
+				"creatures" : [
+					[
+						"foxShaman"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "summit/map/dwellings/dwelling-5.def",
-						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						]
 					}
 				}
 			},
 			"onisGrotto" : {
 				"name" : "Oni's Grotto",
-				"creatures" : [[ "oni" ]],
+				"creatures" : [
+					[
+						"oni"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "summit/map/dwellings/dwelling-6.def",
-						"mask" : [ "VVVV", "VVVV", "VVBB", "VBAB" ]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBB",
+							"VBAB"
+						]
 					}
 				}
 			},
 			"thunderCrag" : {
 				"name" : "Thunder Crag",
-				"creatures" : [[ "nue" ]],
+				"creatures" : [
+					[
+						"nue"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "summit/map/dwellings/dwelling-7.def",
-						"mask" : [ "VVV", "VBB", "BAB" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"BAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

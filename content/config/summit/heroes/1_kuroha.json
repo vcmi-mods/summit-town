@@ -1,54 +1,54 @@
 {
-	"1_kuroha": {
-		"class": "shugenja",
-		"female": true,
-		"texts": {
-			"name": "Kuroha",
-			"biography": "Kuroha is a karasu tengu scholar who keeps the sutra repository of the Summit. She has read every scroll in it at least three times and has strong opinions about all of them. Her mind is a well of power that never runs dry, and she can weave spells long after other mages have collapsed from exhaustion. Young tengu fear her lectures more than any battle.",
-			"specialty": {
-				"description": "Receives a 5% per level bonus to Intelligence skill percentage.",
-				"tooltip": "Secondary Skill Bonus: Intelligence",
-				"name": "Intelligence"
+	"1_kuroha" : {
+		"class" : "shugenja",
+		"female" : true,
+		"texts" : {
+			"name" : "Kuroha",
+			"biography" : "Kuroha is a karasu tengu scholar who keeps the sutra repository of the Summit. She has read every scroll in it at least three times and has strong opinions about all of them. Her mind is a well of power that never runs dry, and she can weave spells long after other mages have collapsed from exhaustion. Young tengu fear her lectures more than any battle.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Intelligence skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Intelligence",
+				"name" : "Intelligence"
 			}
 		},
-		"images": {
-			"specialtySmall": "summit/heroes/kuroha/spec-small.png",
-			"specialtyLarge": "summit/heroes/kuroha/spec-large.png",
-			"large": "summit/heroes/kuroha/portrait-large.png",
-			"small": "summit/heroes/kuroha/portrait-small.png"
+		"images" : {
+			"specialtySmall" : "summit/heroes/kuroha/spec-small.png",
+			"specialtyLarge" : "summit/heroes/kuroha/spec-large.png",
+			"large" : "summit/heroes/kuroha/portrait-large.png",
+			"small" : "summit/heroes/kuroha/portrait-small.png"
 		},
-		"spellbook": [
+		"spellbook" : [
 			"haste"
 		],
-		"army": [
+		"army" : [
 			{
-				"creature": "lionDog",
-				"min": 10,
-				"max": 20
+				"creature" : "lionDog",
+				"min" : 10,
+				"max" : 20
 			},
 			{
-				"creature": "phantomCat",
-				"min": 4,
-				"max": 7
+				"creature" : "phantomCat",
+				"min" : 4,
+				"max" : 7
 			},
 			{
-				"creature": "shrineMaiden",
-				"min": 3,
-				"max": 5
+				"creature" : "shrineMaiden",
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "wisdom"
+				"level" : "basic",
+				"skill" : "wisdom"
 			},
 			{
-				"level": "basic",
-				"skill": "intelligence"
+				"level" : "basic",
+				"skill" : "intelligence"
 			}
 		],
-		"specialty": {
-			"secondary": "intelligence"
+		"specialty" : {
+			"secondary" : "intelligence"
 		}
 	}
 }

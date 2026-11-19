@@ -33,7 +33,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.forgetfulness",
 				"val" : 25,
-				"addInfo" : [ 2, 0 ]
+				"addInfo" : [
+					2,
+					0
+				]
 			},
 			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
@@ -61,7 +64,17 @@
 					"lowerX" : 37,
 					"lowerY" : -53
 				},
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				]
 			}
 		},
 		"sound" : {

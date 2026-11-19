@@ -39,7 +39,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disease",
 				"val" : 20,
-				"addInfo" : [ 2, 0 ]
+				"addInfo" : [
+					2,
+					0
+				]
 			},
 			"omenCry" : {
 				"type" : "MORALE",
@@ -47,7 +50,9 @@
 				"stacking" : "Nue Cry",
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ]
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
 			},
 			"blackCloudThunder" : {
 				"type" : "SPELL_AFTER_ATTACK",

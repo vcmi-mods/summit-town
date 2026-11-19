@@ -1,51 +1,51 @@
 {
-	"0_tsunehira": {
-		"class": "taisho",
-		"female": false,
-		"texts": {
-			"name": "Tsunehira",
-			"biography": "Tsunehira ruled the far northern provinces from Hiraizumi, a city of golden halls built on the gold of the mountains. For decades he kept the north at peace by being too strong to attack and too wise to provoke, while the great clans of the south tore each other apart. When a hunted young hero fled to him, he sheltered him against the wrath of the realm's new master, knowing it might cost him everything. His troops wear the finest northern armor, and he protects his soldiers as fiercely as he once protected his guest.",
-			"specialty": {
-				"description": "Receives a 5% per level bonus to Armorer skill percentage.",
-				"tooltip": "Secondary Skill Bonus: Armorer",
-				"name": "Armorer"
+	"0_tsunehira" : {
+		"class" : "taisho",
+		"female" : false,
+		"texts" : {
+			"name" : "Tsunehira",
+			"biography" : "Tsunehira ruled the far northern provinces from Hiraizumi, a city of golden halls built on the gold of the mountains. For decades he kept the north at peace by being too strong to attack and too wise to provoke, while the great clans of the south tore each other apart. When a hunted young hero fled to him, he sheltered him against the wrath of the realm's new master, knowing it might cost him everything. His troops wear the finest northern armor, and he protects his soldiers as fiercely as he once protected his guest.",
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Armorer skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Armorer",
+				"name" : "Armorer"
 			}
 		},
-		"images": {
-			"specialtySmall": "summit/heroes/tsunehira/spec-small.png",
-			"specialtyLarge": "summit/heroes/tsunehira/spec-large.png",
-			"large": "summit/heroes/tsunehira/portrait-large.png",
-			"small": "summit/heroes/tsunehira/portrait-small.png"
+		"images" : {
+			"specialtySmall" : "summit/heroes/tsunehira/spec-small.png",
+			"specialtyLarge" : "summit/heroes/tsunehira/spec-large.png",
+			"large" : "summit/heroes/tsunehira/portrait-large.png",
+			"small" : "summit/heroes/tsunehira/portrait-small.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "lionDog",
-				"min": 10,
-				"max": 20
+				"creature" : "lionDog",
+				"min" : 10,
+				"max" : 20
 			},
 			{
-				"creature": "phantomCat",
-				"min": 4,
-				"max": 7
+				"creature" : "phantomCat",
+				"min" : 4,
+				"max" : 7
 			},
 			{
-				"creature": "shrineMaiden",
-				"min": 3,
-				"max": 5
+				"creature" : "shrineMaiden",
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "leadership"
+				"level" : "basic",
+				"skill" : "leadership"
 			},
 			{
-				"level": "basic",
-				"skill": "armorer"
+				"level" : "basic",
+				"skill" : "armorer"
 			}
 		],
-		"specialty": {
-			"secondary": "armorer"
+		"specialty" : {
+			"secondary" : "armorer"
 		}
 	}
 }

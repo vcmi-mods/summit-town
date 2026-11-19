@@ -1,74 +1,74 @@
 {
-	"0_hayate": {
-		"class": "taisho",
-		"female": false,
-		"texts": {
-			"name": "Hayate",
-			"biography": "Hayate is the eldest of the Kamaitachi, the whirlwind weasels that ride the mountain gales in threes: one knocks a traveller down, one cuts, and one heals the wound before it bleeds. Long ago he gave up such pranks to lead the Summit's winged warriors, teaching them to strike and vanish on the same gust of wind. Enemies rarely see him coming; they only hear the whistle of the wind and find their banners slashed. Every flying yokai of the mountain moves faster under his command.",
-			"specialty": {
-				"description": "Flying creatures in the hero's army get +1 Speed and deal 0.5% more melee damage per hero level.",
-				"tooltip": "Unique Bonus: Wings of the Gale",
-				"name": "Wings of the Gale"
+	"0_hayate" : {
+		"class" : "taisho",
+		"female" : false,
+		"texts" : {
+			"name" : "Hayate",
+			"biography" : "Hayate is the eldest of the Kamaitachi, the whirlwind weasels that ride the mountain gales in threes: one knocks a traveller down, one cuts, and one heals the wound before it bleeds. Long ago he gave up such pranks to lead the Summit's winged warriors, teaching them to strike and vanish on the same gust of wind. Enemies rarely see him coming; they only hear the whistle of the wind and find their banners slashed. Every flying yokai of the mountain moves faster under his command.",
+			"specialty" : {
+				"description" : "Flying creatures in the hero's army get +1 Speed and deal 0.5% more melee damage per hero level.",
+				"tooltip" : "Unique Bonus: Wings of the Gale",
+				"name" : "Wings of the Gale"
 			}
 		},
-		"images": {
-			"specialtySmall": "summit/heroes/hayate/spec-small.png",
-			"specialtyLarge": "summit/heroes/hayate/spec-large.png",
-			"large": "summit/heroes/hayate/portrait-large.png",
-			"small": "summit/heroes/hayate/portrait-small.png"
+		"images" : {
+			"specialtySmall" : "summit/heroes/hayate/spec-small.png",
+			"specialtyLarge" : "summit/heroes/hayate/spec-large.png",
+			"large" : "summit/heroes/hayate/portrait-large.png",
+			"small" : "summit/heroes/hayate/portrait-small.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "lionDog",
-				"min": 10,
-				"max": 20
+				"creature" : "lionDog",
+				"min" : 10,
+				"max" : 20
 			},
 			{
-				"creature": "phantomCat",
-				"min": 4,
-				"max": 7
+				"creature" : "phantomCat",
+				"min" : 4,
+				"max" : 7
 			},
 			{
-				"creature": "karasuTengu",
-				"min": 2,
-				"max": 3
+				"creature" : "karasuTengu",
+				"min" : 2,
+				"max" : 3
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "tactics"
+				"level" : "basic",
+				"skill" : "tactics"
 			},
 			{
-				"level": "basic",
-				"skill": "logistics"
+				"level" : "basic",
+				"skill" : "logistics"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"flySpeed": {
-					"type": "STACKS_SPEED",
-					"val": 1,
-					"limiters": [
+		"specialty" : {
+			"bonuses" : {
+				"flySpeed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "FLYING"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FLYING"
 						}
 					]
 				},
-				"flyMelee": {
-					"type": "PERCENTAGE_DAMAGE_BOOST",
-					"subtype": "damageTypeMelee",
-					"valueType": "BASE_NUMBER",
-					"updater": {
-						"type": "GROWS_WITH_LEVEL",
-						"valPer20": 10,
-						"stepSize": 1
+				"flyMelee" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeMelee",
+					"valueType" : "BASE_NUMBER",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 10,
+						"stepSize" : 1
 					},
-					"limiters": [
+					"limiters" : [
 						{
-							"type": "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType": "FLYING"
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FLYING"
 						}
 					]
 				}

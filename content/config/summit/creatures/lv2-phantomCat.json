@@ -6,7 +6,9 @@
 		},
 		"faction" : "summit",
 		"level" : 2,
-		"upgrades" : [ "nekomata" ],
+		"upgrades" : [
+			"nekomata"
+		],
 		"cost" : {
 			"gold" : 110
 		},
@@ -30,7 +32,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.curse",
 				"val" : 20,
-				"addInfo" : [ 1, 0 ]
+				"addInfo" : [
+					1,
+					0
+				]
 			}
 		},
 		"graphics" : {

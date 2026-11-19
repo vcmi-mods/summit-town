@@ -1,56 +1,56 @@
 {
-	"0_0masamura": {
-		"class": "taisho",
-		"female": false,
-		"texts": {
-			"name": "Masamura",
-			"biography": "Masamura of the Sanada clan spent fourteen years in exile at the foot of Mt. Kudo, a forgotten hostage of a losing war. When the last great siege came, he built a crimson earthwork fort before the castle walls and threw back wave after wave of attackers. In the final battle he led his red-armored riders straight through the enemy lines to the commander's banner, and even his foes called him the finest warrior in the land. The yokai of the Summit say that such a spirit does not die, it only climbs the mountain.",
-			"specialty": {
-				"description": "At the beginning of combat, all units commanded by the hero gain bloodlust for 5 turns.",
-				"tooltip": "Combat Bonus: Blood frenzy",
-				"name": "Blood frenzy"
+	"0_0masamura" : {
+		"class" : "taisho",
+		"female" : false,
+		"texts" : {
+			"name" : "Masamura",
+			"biography" : "Masamura of the Sanada clan spent fourteen years in exile at the foot of Mt. Kudo, a forgotten hostage of a losing war. When the last great siege came, he built a crimson earthwork fort before the castle walls and threw back wave after wave of attackers. In the final battle he led his red-armored riders straight through the enemy lines to the commander's banner, and even his foes called him the finest warrior in the land. The yokai of the Summit say that such a spirit does not die, it only climbs the mountain.",
+			"specialty" : {
+				"description" : "At the beginning of combat, all units commanded by the hero gain bloodlust for 5 turns.",
+				"tooltip" : "Combat Bonus: Blood frenzy",
+				"name" : "Blood frenzy"
 			}
 		},
-		"images": {
-			"specialtySmall": "summit/heroes/masamura/spec-small.png",
-			"specialtyLarge": "summit/heroes/masamura/spec-large.png",
-			"large": "summit/heroes/masamura/portrait-large.png",
-			"small": "summit/heroes/masamura/portrait-small.png"
+		"images" : {
+			"specialtySmall" : "summit/heroes/masamura/spec-small.png",
+			"specialtyLarge" : "summit/heroes/masamura/spec-large.png",
+			"large" : "summit/heroes/masamura/portrait-large.png",
+			"small" : "summit/heroes/masamura/portrait-small.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "lionDog",
-				"min": 10,
-				"max": 20
+				"creature" : "lionDog",
+				"min" : 10,
+				"max" : 20
 			},
 			{
-				"creature": "phantomCat",
-				"min": 4,
-				"max": 7
+				"creature" : "phantomCat",
+				"min" : 4,
+				"max" : 7
 			},
 			{
-				"creature": "shrineMaiden",
-				"min": 3,
-				"max": 5
+				"creature" : "shrineMaiden",
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "leadership"
+				"level" : "basic",
+				"skill" : "leadership"
 			},
 			{
-				"level": "basic",
-				"skill": "offence"
+				"level" : "basic",
+				"skill" : "offence"
 			}
 		],
-		"specialty": {
-			"bonuses": {
-				"bloodlust": {
-					"subtype": "bloodlust",
-					"type": "OPENING_BATTLE_SPELL",
-					"val": 5,
-					"valueType": "BASE_NUMBER"
+		"specialty" : {
+			"bonuses" : {
+				"bloodlust" : {
+					"subtype" : "bloodlust",
+					"type" : "OPENING_BATTLE_SPELL",
+					"val" : 5,
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		}

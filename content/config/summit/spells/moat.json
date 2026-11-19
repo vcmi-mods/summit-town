@@ -18,7 +18,9 @@
 						"type" : "core:damage"
 					}
 				},
-				"targetModifier" : { "smart" : false }
+				"targetModifier" : {
+					"smart" : false
+				}
 			},
 			"none" : {},
 			"basic" : {},
@@ -47,7 +49,9 @@
 				"description" : "",
 				"power" : 0,
 				"cost" : 0,
-				"targetModifier" : { "smart" : false },
+				"targetModifier" : {
+					"smart" : false
+				},
 				"battleEffects" : {
 					"moat" : {
 						"type" : "core:moat",
@@ -57,7 +61,20 @@
 						"dispellable" : false,
 						"removeOnTrigger" : false,
 						"moatDamage" : 70,
-						"moatHexes" : [ [ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ] ],
+						"moatHexes" : [
+							[
+								11,
+								28,
+								44,
+								61,
+								77,
+								111,
+								129,
+								146,
+								164,
+								181
+							]
+						],
 						"defender" : {},
 						"bonus" : {
 							"primarySkill" : {

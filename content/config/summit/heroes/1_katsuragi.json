@@ -1,63 +1,63 @@
 {
-	"1_katsuragi": {
-		"class": "shugenja",
-		"female": false,
-		"texts": {
-			"name": "Katsuragi",
-			"biography": "Katsuragi is the eldest Tsuchigumo, the earth spider that has lurked beneath Mt. Katsuragi since before the first shrines were built. Heroes of old buried him under a boulder, yet he simply waited a few centuries and dug his way out. His webs bind wounds as tightly as they bind prey, and soldiers who march with him shrug off blows that would fell ordinary troops. In the long dark beneath the mountain he learned the slow, binding magic of the earth itself, and enemies who face him find their legs tangled in threads they cannot see. He is slow to anger and slower to die.",
-			"specialty": {
-				"description": "Increases the health of all units in the army by 1 and by 4%.",
-				"tooltip": "Creature Bonus: Health",
-				"name": "Spider Silk Bindings"
+	"1_katsuragi" : {
+		"class" : "shugenja",
+		"female" : false,
+		"texts" : {
+			"name" : "Katsuragi",
+			"biography" : "Katsuragi is the eldest Tsuchigumo, the earth spider that has lurked beneath Mt. Katsuragi since before the first shrines were built. Heroes of old buried him under a boulder, yet he simply waited a few centuries and dug his way out. His webs bind wounds as tightly as they bind prey, and soldiers who march with him shrug off blows that would fell ordinary troops. In the long dark beneath the mountain he learned the slow, binding magic of the earth itself, and enemies who face him find their legs tangled in threads they cannot see. He is slow to anger and slower to die.",
+			"specialty" : {
+				"description" : "Increases the health of all units in the army by 1 and by 4%.",
+				"tooltip" : "Creature Bonus: Health",
+				"name" : "Spider Silk Bindings"
 			}
 		},
-		"images": {
-			"specialtySmall": "summit/heroes/katsuragi/spec-small.png",
-			"specialtyLarge": "summit/heroes/katsuragi/spec-large.png",
-			"large": "summit/heroes/katsuragi/portrait-large.png",
-			"small": "summit/heroes/katsuragi/portrait-small.png"
+		"images" : {
+			"specialtySmall" : "summit/heroes/katsuragi/spec-small.png",
+			"specialtyLarge" : "summit/heroes/katsuragi/spec-large.png",
+			"large" : "summit/heroes/katsuragi/portrait-large.png",
+			"small" : "summit/heroes/katsuragi/portrait-small.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "lionDog",
-				"min": 10,
-				"max": 20
+				"creature" : "lionDog",
+				"min" : 10,
+				"max" : 20
 			},
 			{
-				"creature": "phantomCat",
-				"min": 4,
-				"max": 7
+				"creature" : "phantomCat",
+				"min" : 4,
+				"max" : 7
 			},
 			{
-				"creature": "shrineMaiden",
-				"min": 3,
-				"max": 5
+				"creature" : "shrineMaiden",
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "wisdom"
+				"level" : "basic",
+				"skill" : "wisdom"
 			},
 			{
-				"level": "basic",
-				"skill": "earthMagic"
+				"level" : "basic",
+				"skill" : "earthMagic"
 			}
 		],
-		"spellbook": [
+		"spellbook" : [
 			"slow"
 		],
-		"specialty": {
-			"bonuses": {
-				"health1": {
-					"type": "STACK_HEALTH",
-					"val": 1,
-					"valueType": "BASE_NUMBER"
+		"specialty" : {
+			"bonuses" : {
+				"health1" : {
+					"type" : "STACK_HEALTH",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
 				},
-				"health2": {
-					"type": "STACK_HEALTH",
-					"val": 4,
-					"valueType": "PERCENT_TO_BASE"
+				"health2" : {
+					"type" : "STACK_HEALTH",
+					"val" : 4,
+					"valueType" : "PERCENT_TO_BASE"
 				}
 			}
 		}

@@ -40,7 +40,10 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 20,
-				"addInfo" : [ 1, 0 ]
+				"addInfo" : [
+					1,
+					0
+				]
 			},
 			"castsHaste" : {
 				"type" : "SPELLCASTER",

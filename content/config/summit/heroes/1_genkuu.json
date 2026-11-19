@@ -1,55 +1,55 @@
 {
-	"1_genkuu": {
-		"class": "shugenja",
-		"female": false,
-		"texts": {
-			"name": "Genkuu",
-			"biography": "Genkuu is a karasu tengu who has trained in the cedar forests of the Summit for longer than the oldest shrine has stood. He taught swordsmanship and the secret arts of the mountain to young warriors who climbed to him at night, and the best of them went on to change the fate of the realm. Today he commands the crow-winged tengu, drilling them until they strike as one flock. No sword is faster than his students, and no student is faster than Genkuu.",
-			"specialty": {
-				"description": "Increases the Speed of any Karasu Tengu or Daitengu by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
-				"tooltip": "Creature Bonus: Karasu Tengu",
-				"name": "Karasu Tengu"
+	"1_genkuu" : {
+		"class" : "shugenja",
+		"female" : false,
+		"texts" : {
+			"name" : "Genkuu",
+			"biography" : "Genkuu is a karasu tengu who has trained in the cedar forests of the Summit for longer than the oldest shrine has stood. He taught swordsmanship and the secret arts of the mountain to young warriors who climbed to him at night, and the best of them went on to change the fate of the realm. Today he commands the crow-winged tengu, drilling them until they strike as one flock. No sword is faster than his students, and no student is faster than Genkuu.",
+			"specialty" : {
+				"description" : "Increases the Speed of any Karasu Tengu or Daitengu by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Karasu Tengu",
+				"name" : "Karasu Tengu"
 			}
 		},
-		"images": {
-			"specialtySmall": "summit/heroes/genkuu/spec-small.png",
-			"specialtyLarge": "summit/heroes/genkuu/spec-large.png",
-			"large": "summit/heroes/genkuu/portrait-large.png",
-			"small": "summit/heroes/genkuu/portrait-small.png"
+		"images" : {
+			"specialtySmall" : "summit/heroes/genkuu/spec-small.png",
+			"specialtyLarge" : "summit/heroes/genkuu/spec-large.png",
+			"large" : "summit/heroes/genkuu/portrait-large.png",
+			"small" : "summit/heroes/genkuu/portrait-small.png"
 		},
-		"spellbook": [
+		"spellbook" : [
 			"haste"
 		],
-		"army": [
+		"army" : [
 			{
-				"creature": "lionDog",
-				"min": 10,
-				"max": 20
+				"creature" : "lionDog",
+				"min" : 10,
+				"max" : 20
 			},
 			{
-				"creature": "karasuTengu",
-				"min": 2,
-				"max": 3
+				"creature" : "karasuTengu",
+				"min" : 2,
+				"max" : 3
 			},
 			{
-				"creature": "shrineMaiden",
-				"min": 3,
-				"max": 5
+				"creature" : "shrineMaiden",
+				"min" : 3,
+				"max" : 5
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"level": "basic",
-				"skill": "wisdom"
+				"level" : "basic",
+				"skill" : "wisdom"
 			},
 			{
-				"level": "basic",
-				"skill": "scouting"
+				"level" : "basic",
+				"skill" : "scouting"
 			}
 		],
-		"specialty": {
-			"creature": "karasuTengu",
-			"stepSize": 20
+		"specialty" : {
+			"creature" : "karasuTengu",
+			"stepSize" : 20
 		}
 	}
 }
