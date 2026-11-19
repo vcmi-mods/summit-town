@@ -1,0 +1,51 @@
+{
+	"0_ibaraki": {
+		"class": "taisho",
+		"female": true,
+		"texts": {
+			"name": "Ibaraki",
+			"biography": "Ibaraki is the oni who once haunted the ruined Rashomon gate, feared by every warrior of the old capital. When a famous swordsman cut off her arm, she returned in disguise, snatched it back and fled laughing into the mountains. Now she leads the oni of the Summit as a general, preferring a straight charge and a broken shield wall to any clever plan. Her troops follow her because she always strikes first and hardest.",
+			"specialty": {
+				"description": "Receives a 5% per level bonus to Offense skill percentage.",
+				"tooltip": "Secondary Skill Bonus: Offense",
+				"name": "Offense"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/ibaraki/spec-small.png",
+			"specialtyLarge": "summit/heroes/ibaraki/spec-large.png",
+			"large": "summit/heroes/ibaraki/portrait-large.png",
+			"small": "summit/heroes/ibaraki/portrait-small.png"
+		},
+		"army": [
+			{
+				"creature": "lionDog",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "shrineMaiden",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "offence"
+			},
+			{
+				"level": "basic",
+				"skill": "leadership"
+			}
+		],
+		"specialty": {
+			"secondary": "offence"
+		}
+	}
+}

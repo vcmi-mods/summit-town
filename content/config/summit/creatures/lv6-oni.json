@@ -1,0 +1,58 @@
+{
+	"oni" : {
+		"name" : {
+			"singular" : "Oni",
+			"plural" : "Oni"
+		},
+		"faction" : "summit",
+		"level" : 6,
+		"special" : false,
+		"upgrades" : [ "rasetsu" ],
+		"cost" : {
+			"gold" : 950
+		},
+		"growth" : 2,
+		"hasDoubleWeek" : false,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
+		},
+		"aiValue" : 1796,
+		"fightValue" : 1592,
+		"hitPoints" : 85,
+		"attack" : 16,
+		"defense" : 12,
+		"damage" : {
+			"min" : 18,
+			"max" : 24
+		},
+		"speed" : 6,
+		"spellPoints" : 0,
+		"doubleWide" : true,
+		"abilities" : {
+			"kanabo" : {
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20
+			}
+		},
+		"graphics" : {
+			"animation" : "summit/battle/CONI.def",
+			"map" : "summit/map/oni.def",
+			"iconSmall" : "summit/iconsSmall/oni.png",
+			"iconLarge" : "summit/iconsBig/oni.png",
+			"timeBetweenFidgets" : 5.0,
+			"animationTime" : {
+				"walk" : 1.0,
+				"attack" : 1.4,
+				"idle" : 10.0
+			}
+		},
+		"sound" : {
+			"attack" : "OGREATTK.wav",
+			"defend" : "OGREDFND.wav",
+			"killed" : "OGREKILL.wav",
+			"move" : "OGREMOVE.wav",
+			"wince" : "OGREWNCE.wav"
+		}
+	}
+}

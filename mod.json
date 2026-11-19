@@ -1,0 +1,73 @@
+{
+	"name" : "Summit Town",
+	"description" : "A Japanese folklore \"yokai\" town on a sacred mountain in autumn. Stone lion dogs guard the shrine gates, cat yokai haunt the abandoned temple, shrine maidens throw ofuda talismans, crow tengu swoop from the cedars, fox shamans cast fox-fire, oni wield iron clubs, and the nue rides the black thunderclouds. Heroes: Taisho (might) and Shugenja (magic). Alpha version.",
+	"author" : "Tojurou. HotA Crew (Sorceress sounds, CC BY-SA 4.0)",
+	"contact" : "discord: pepanoga",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "0.1.0",
+	"modType" : "Town",
+	"compatibility" : { "min" : "1.7.0" },
+	"changelog" : {
+		"0.1.0" : [
+			"Alpha release",
+			"New town Summit with 14 creatures (T1-T7 and upgrades), the commander Zenko, 18 heroes and 2 hero classes (Taisho, Shugenja)",
+			"Own graphics for the town screen, the build screen, the adventure map, creatures, hero classes, portraits and specialty icons"
+		]
+	},
+	"factions" : [
+		"config/summit/town/buildings.json",
+		"config/summit/town/faction.json",
+		"config/summit/town/siege.json",
+		"config/summit/town/spells.json",
+		"config/summit/town/structures.json",
+		"config/summit/town/puzzle.json"
+	],
+	"creatures" : [
+		"config/summit/creatures/lv1-lionDog.json",
+		"config/summit/creatures/lv1Up-komainu.json",
+		"config/summit/creatures/lv2-phantomCat.json",
+		"config/summit/creatures/lv2Up-nekomata.json",
+		"config/summit/creatures/lv3-shrineMaiden.json",
+		"config/summit/creatures/lv3Up-kazeNoMiko.json",
+		"config/summit/creatures/lv4-karasuTengu.json",
+		"config/summit/creatures/lv4Up-daitengu.json",
+		"config/summit/creatures/lv5-foxShaman.json",
+		"config/summit/creatures/lv5Up-tenko.json",
+		"config/summit/creatures/lv6-oni.json",
+		"config/summit/creatures/lv6Up-rasetsu.json",
+		"config/summit/creatures/lv7-nue.json",
+		"config/summit/creatures/lv7Up-blackCloudNue.json",
+		"config/summit/creatures/zenko.json"
+	],
+	"heroClasses" : [
+		"config/summit/classes/taisho.json",
+		"config/summit/classes/shugenja.json"
+	],
+	"heroes" : [
+		"config/summit/heroes/0_ayame.json",
+		"config/summit/heroes/0_0masamura.json",
+		"config/summit/heroes/0_nagahide.json",
+		"config/summit/heroes/0_okuri.json",
+		"config/summit/heroes/0_tane.json",
+		"config/summit/heroes/0_tsunehira.json",
+		"config/summit/heroes/0_hayate.json",
+		"config/summit/heroes/0_ibaraki.json",
+		"config/summit/heroes/0_otama.json",
+		"config/summit/heroes/1_kazane.json",
+		"config/summit/heroes/1_katsuragi.json",
+		"config/summit/heroes/1_kokuri.json",
+		"config/summit/heroes/1_kuroha.json",
+		"config/summit/heroes/1_genkuu.json",
+		"config/summit/heroes/1_hibiki.json",
+		"config/summit/heroes/1_riko.json",
+		"config/summit/heroes/1_sayuki.json",
+		"config/summit/heroes/1_shippougyoja.json"
+	],
+	"objects" : [
+		"config/summit/dwellings.json"
+	],
+	"spells" : [
+		"config/summit/spells/moat.json"
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"nekomata" : {
+		"name" : {
+			"singular" : "Nekomata",
+			"plural" : "Nekomata"
+		},
+		"faction" : "summit",
+		"level" : 2,
+		"cost" : {
+			"gold" : 150
+		},
+		"growth" : 8,
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 25
+		},
+		"aiValue" : 235,
+		"fightValue" : 210,
+		"hitPoints" : 15,
+		"attack" : 8,
+		"defense" : 5,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"speed" : 8,
+		"abilities" : {
+			"twinTails" : {
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			},
+			"curses" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 20,
+				"addInfo" : [ 2, 0 ]
+			}
+		},
+		"graphics" : {
+			"animation" : "summit/battle/CNEKO.def",
+			"map" : "summit/map/nekomata.def",
+			"iconSmall" : "summit/iconsSmall/nekomata.png",
+			"iconLarge" : "summit/iconsBig/nekomata.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "SPRTATTK.wav",
+			"defend" : "SPRTDFND.wav",
+			"killed" : "SPRTKILL.wav",
+			"move" : "summit/SORCMOVE.wav",
+			"wince" : "SPRTWNCE.wav"
+		}
+	}
+}

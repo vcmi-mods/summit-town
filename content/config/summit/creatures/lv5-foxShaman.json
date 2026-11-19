@@ -1,0 +1,74 @@
+{
+	"foxShaman" : {
+		"name" : {
+			"singular" : "Fox Shaman",
+			"plural" : "Fox Shamans"
+		},
+		"faction" : "summit",
+		"level" : 5,
+		"upgrades" : [ "tenko" ],
+		"cost" : {
+			"gold" : 450
+		},
+		"growth" : 3,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 16
+		},
+		"aiValue" : 702,
+		"fightValue" : 564,
+		"hitPoints" : 32,
+		"attack" : 14,
+		"defense" : 9,
+		"damage" : {
+			"min" : 10,
+			"max" : 13
+		},
+		"speed" : 6,
+		"shots" : 12,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"foxTrick" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 20,
+				"addInfo" : [ 1, 0 ]
+			}
+		},
+		"graphics" : {
+			"animation" : "summit/battle/C4FOX.def",
+			"map" : "summit/map/foxShaman.def",
+			"iconSmall" : "summit/iconsSmall/foxShaman.png",
+			"iconLarge" : "summit/iconsBig/foxShaman.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
+				"projectile" : "summit/battle/PFOX.def",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 36,
+					"upperY" : -77,
+					"middleX" : 33,
+					"middleY" : -69,
+					"lowerX" : 37,
+					"lowerY" : -53
+				},
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+			}
+		},
+		"sound" : {
+			"attack" : "MONKATTK.wav",
+			"defend" : "MONKDFND.wav",
+			"killed" : "MONKKILL.wav",
+			"move" : "MONKMOVE.wav",
+			"shoot" : "MONKSHOT.wav",
+			"wince" : "MONKWNCE.wav"
+		}
+	}
+}

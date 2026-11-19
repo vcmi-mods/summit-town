@@ -1,0 +1,63 @@
+{
+	"karasuTengu" : {
+		"name" : {
+			"singular" : "Karasu Tengu",
+			"plural" : "Karasu Tengu"
+		},
+		"faction" : "summit",
+		"level" : 4,
+		"upgrades" : [ "daitengu" ],
+		"cost" : {
+			"gold" : 400
+		},
+		"growth" : 4,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		},
+		"aiValue" : 672,
+		"fightValue" : 603,
+		"hitPoints" : 40,
+		"attack" : 8,
+		"defense" : 10,
+		"damage" : {
+			"min" : 6,
+			"max" : 10
+		},
+		"speed" : 8,
+		"doubleWide" : true,
+		"abilities" : {
+			"flight" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"lookout" : {
+				"type" : "SIGHT_RADIUS",
+				"val" : 1,
+				"propagator" : "HERO"
+			},
+			"strikeAndReturn" : {
+				"type" : "RETURN_AFTER_STRIKE"
+			}
+		},
+		"graphics" : {
+			"animation" : "summit/battle/CKARASU.def",
+			"map" : "summit/map/karasuTengu.def",
+			"iconSmall" : "summit/iconsSmall/karasuTengu.png",
+			"iconLarge" : "summit/iconsBig/karasuTengu.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "ROCCATTK.wav",
+			"defend" : "ROCCDFND.wav",
+			"killed" : "ROCCKILL.wav",
+			"move" : "ROCCMOVE.wav",
+			"wince" : "ROCCWNCE.wav"
+		}
+	}
+}

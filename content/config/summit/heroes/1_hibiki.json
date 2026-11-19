@@ -1,0 +1,59 @@
+{
+	"1_hibiki": {
+		"class": "shugenja",
+		"female": true,
+		"texts": {
+			"name": "Hibiki",
+			"biography": "Hibiki is a yamabiko, the voice that answers from the far side of the valleys of the Summit. She is older than she looks and younger than she acts, and she laughs at everything, especially at mages who waste their strength on clumsy spells. When a spell is cast near her, she catches its words and sends them back from the cliffs, so that every incantation is carried by its own echo and costs its caster less. Travellers lost in the mist who call out politely hear her laughing answer from the right path, and are said never to lose their way.",
+			"specialty": {
+				"description": "Reduces cost of spells during combat by 2.",
+				"tooltip": "-2 Spell Cost bonus",
+				"name": "-2 Spell Cost"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/hibiki/spec-small.png",
+			"specialtyLarge": "summit/heroes/hibiki/spec-large.png",
+			"large": "summit/heroes/hibiki/portrait-large.png",
+			"small": "summit/heroes/hibiki/portrait-small.png"
+		},
+		"spellbook": [
+			"mirth"
+		],
+		"army": [
+			{
+				"creature": "lionDog",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "shrineMaiden",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "sorcery"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"reduceSpellCost": {
+					"type": "CHANGES_SPELL_COST_FOR_ALLY",
+					"val": 2
+				}
+			}
+		}
+	}
+}

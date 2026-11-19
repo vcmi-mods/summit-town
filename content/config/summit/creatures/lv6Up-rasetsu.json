@@ -1,0 +1,61 @@
+{
+	"rasetsu" : {
+		"name" : {
+			"singular" : "Rasetsu",
+			"plural" : "Rasetsu"
+		},
+		"faction" : "summit",
+		"level" : 6,
+		"special" : false,
+		"cost" : {
+			"gold" : 1250
+		},
+		"growth" : 2,
+		"hasDoubleWeek" : false,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
+		},
+		"aiValue" : 2383,
+		"fightValue" : 2077,
+		"hitPoints" : 95,
+		"attack" : 19,
+		"defense" : 14,
+		"damage" : {
+			"min" : 20,
+			"max" : 28
+		},
+		"speed" : 10,
+		"spellPoints" : 0,
+		"doubleWide" : true,
+		"abilities" : {
+			"kanabo" : {
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20
+			},
+			"devour" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 25
+			}
+		},
+		"graphics" : {
+			"animation" : "summit/battle/CRASET.def",
+			"map" : "summit/map/rasetsu.def",
+			"iconSmall" : "summit/iconsSmall/rasetsu.png",
+			"iconLarge" : "summit/iconsBig/rasetsu.png",
+			"timeBetweenFidgets" : 5.0,
+			"animationTime" : {
+				"walk" : 1.0,
+				"attack" : 1.4,
+				"idle" : 10.0
+			}
+		},
+		"sound" : {
+			"attack" : "OGRMATTK.wav",
+			"defend" : "OGRMDFND.wav",
+			"killed" : "OGRMKILL.wav",
+			"move" : "OGRMMOVE.wav",
+			"wince" : "OGRMWNCE.wav"
+		}
+	}
+}

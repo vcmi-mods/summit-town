@@ -1,0 +1,55 @@
+{
+	"1_kazane": {
+		"class": "shugenja",
+		"female": true,
+		"texts": {
+			"name": "Kazane",
+			"biography": "Kazane was the widow of a fallen warrior who turned grief into a weapon. Under the protection of a great warlord she gathered orphaned girls, trained them as wandering shrine maidens, and sent them across every province to dance, pray and listen. Through her network no army could march without her knowing its road and its numbers. Now the shrine maidens of the Summit answer to her, and under her eye they dance faster, shoot truer and stand firmer than any others.",
+			"specialty": {
+				"description": "Increases the Speed of any Shrine Maidens or Kaze no Miko by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"tooltip": "Creature Bonus: Shrine Maidens",
+				"name": "Shrine Maidens"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/kazane/spec-small.png",
+			"specialtyLarge": "summit/heroes/kazane/spec-large.png",
+			"large": "summit/heroes/kazane/portrait-large.png",
+			"small": "summit/heroes/kazane/portrait-small.png"
+		},
+		"spellbook": [
+			"bless"
+		],
+		"army": [
+			{
+				"creature": "lionDog",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "shrineMaiden",
+				"min": 3,
+				"max": 5
+			},
+			{
+				"creature": "shrineMaiden",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "scouting"
+			}
+		],
+		"specialty": {
+			"creature": "shrineMaiden",
+			"stepSize": 20
+		}
+	}
+}

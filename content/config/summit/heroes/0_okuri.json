@@ -1,0 +1,51 @@
+{
+	"0_okuri": {
+		"class": "taisho",
+		"female": true,
+		"texts": {
+			"name": "Okuri",
+			"biography": "Okuri is an Okuri-inu, one of the great white wolves that follow travellers along the mountain roads at night. Those who walk steadily are escorted safely to the next village; those who stumble are never seen again. She knows every pass, ford and hidden trail of the Summit, and armies that follow her reach the battlefield before the enemy has finished breaking camp. The Lion Dogs of the shrine treat her as an elder sister.",
+			"specialty": {
+				"description": "Receives a 5% per level bonus to Logistics skill percentage.",
+				"name": "Logistics",
+				"tooltip": "Secondary Skill Bonus: Logistics"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/okuri/spec-small.png",
+			"specialtyLarge": "summit/heroes/okuri/spec-large.png",
+			"large": "summit/heroes/okuri/portrait-large.png",
+			"small": "summit/heroes/okuri/portrait-small.png"
+		},
+		"army": [
+			{
+				"creature": "lionDog",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "shrineMaiden",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "logistics"
+			},
+			{
+				"level": "basic",
+				"skill": "pathfinding"
+			}
+		],
+		"specialty": {
+			"secondary": "logistics"
+		}
+	}
+}

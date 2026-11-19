@@ -1,0 +1,111 @@
+{
+	"shrineMaiden" : {
+		"name" : {
+			"singular" : "Shrine Maiden",
+			"plural" : "Shrine Maidens"
+		},
+		"faction" : "summit",
+		"level" : 3,
+		"upgrades" : [ "kazeNoMiko" ],
+		"cost" : {
+			"gold" : 200
+		},
+		"growth" : 7,
+		"hasDoubleWeek" : true,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 25
+		},
+		"aiValue" : 248,
+		"fightValue" : 220,
+		"hitPoints" : 18,
+		"attack" : 7,
+		"defense" : 6,
+		"damage" : {
+			"min" : 3,
+			"max" : 5
+		},
+		"speed" : 5,
+		"shots" : 12,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"purify" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispel",
+				"val" : 20,
+				"addInfo" : [ 1, 0 ]
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
+			}
+		],
+		"graphics" : {
+			"animation" : "summit/battle/CMIKO.def",
+			"map" : "summit/map/shrineMaiden.def",
+			"iconSmall" : "summit/iconsSmall/shrineMaiden.png",
+			"iconLarge" : "summit/iconsBig/shrineMaiden.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
+				"projectile" : "summit/battle/PMIKO.def",
+				"attackClimaxFrame" : 4,
+				"offset" : {
+					"upperX" : 37,
+					"upperY" : -54,
+					"middleX" : 44,
+					"middleY" : -45,
+					"lowerX" : 45,
+					"lowerY" : -34
+				},
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+			}
+		},
+		"sound" : {
+			"attack" : "summit/SORCATTK.wav",
+			"defend" : "summit/SORCDFND.wav",
+			"killed" : "summit/SORCKILL.wav",
+			"move" : "summit/SORCMOVE.wav",
+			"shoot" : "summit/SORCSHOT.wav",
+			"wince" : "summit/SORCWNCE.wav"
+		}
+	}
+}

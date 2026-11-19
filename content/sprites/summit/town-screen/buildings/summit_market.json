@@ -1,0 +1,9 @@
+{
+	"basepath": "summit/town-screen/buildings/",
+	"images": [
+		{
+			"frame": 0,
+			"file": "summit_market"
+		}
+	]
+}

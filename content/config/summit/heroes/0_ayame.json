@@ -1,0 +1,55 @@
+{
+	"0_ayame": {
+		"class": "taisho",
+		"female": true,
+		"texts": {
+			"name": "Ayame",
+			"biography": "Ayame was born a princess of a great northern clan and married into the lords of a mountain castle. When her husband and son died, she ruled the castle herself, and when her own ambitious nephew marched on it she refused to open the gates to kin who came as conquerors. Defeated at last, she would not live under his roof and left to wander the northern mountains. The guardian lion dogs of the Summit's shrines followed her as if she were their keeper, and she has led them in battle ever since.",
+			"specialty": {
+				"description": "Increases the Speed of any Lion Dogs or Komainu by 1 and their Attack and Defense skills by 10% for every level (rounded up).",
+				"tooltip": "Creature Bonus: Lion Dogs",
+				"name": "Lion Dogs"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/ayame/spec-small.png",
+			"specialtyLarge": "summit/heroes/ayame/spec-large.png",
+			"large": "summit/heroes/ayame/portrait-large.png",
+			"small": "summit/heroes/ayame/portrait-small.png"
+		},
+		"spellbook": [
+			"cure"
+		],
+		"army": [
+			{
+				"creature": "lionDog",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "shrineMaiden",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "armorer"
+			},
+			{
+				"level": "basic",
+				"skill": "leadership"
+			}
+		],
+		"specialty": {
+			"creature": "lionDog",
+			"stepSize": 10
+		}
+	}
+}

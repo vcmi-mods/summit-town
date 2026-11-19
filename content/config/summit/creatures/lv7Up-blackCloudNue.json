@@ -1,0 +1,83 @@
+{
+	"blackCloudNue" : {
+		"name" : {
+			"singular" : "Black Cloud Nue",
+			"plural" : "Black Cloud Nue"
+		},
+		"faction" : "summit",
+		"level" : 7,
+		"cost" : {
+			"gold" : 3000,
+			"mercury" : 1
+		},
+		"growth" : 1,
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
+		},
+		"aiValue" : 5966,
+		"fightValue" : 4065,
+		"hitPoints" : 240,
+		"attack" : 22,
+		"defense" : 22,
+		"damage" : {
+			"min" : 40,
+			"max" : 40
+		},
+		"speed" : 15,
+		"doubleWide" : true,
+		"abilities" : {
+			"flight" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"slayable" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"diseaseCry" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 20,
+				"addInfo" : [ 2, 0 ]
+			},
+			"omenCry" : {
+				"type" : "MORALE",
+				"val" : -1,
+				"stacking" : "Nue Cry",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			},
+			"blackCloudThunder" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.thunderbolt",
+				"val" : 20
+			},
+			"thunderStrength" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.thunderbolt",
+				"val" : 10
+			}
+		},
+		"graphics" : {
+			"animation" : "summit/battle/CNUEUP.def",
+			"map" : "summit/map/blackCloudNue.def",
+			"iconSmall" : "summit/iconsSmall/blackCloudNue.png",
+			"iconLarge" : "summit/iconsBig/blackCloudNue.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "TBRDATTK.wav",
+			"defend" : "TBRDDFND.wav",
+			"killed" : "TBRDKILL.wav",
+			"move" : "TBRDMOVE.wav",
+			"wince" : "TBRDWNCE.wav"
+		}
+	}
+}

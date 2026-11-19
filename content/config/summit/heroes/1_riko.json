@@ -1,0 +1,61 @@
+{
+	"1_riko": {
+		"class": "shugenja",
+		"female": true,
+		"texts": {
+			"name": "Riko",
+			"biography": "Riko is a white fox priestess of the Thousand Torii whose painted face never changes expression; no pilgrim has ever seen her smile, frown or blink in surprise. Her fox-fire burns with a light so pure that it blinds those who stare into it, and she uses it to lead pilgrims and to bewilder enemies alike. She speaks rarely, and only in riddles. The foxes say she once outwitted a god, and that the god has not stopped laughing since.",
+			"specialty": {
+				"description": "Casts Blind with effect increased by 10% for every N hero levels, where N is the level of the target creature.",
+				"tooltip": "Spell Bonus: Blind",
+				"name": "Blind"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/riko/spec-small.png",
+			"specialtyLarge": "summit/heroes/riko/spec-large.png",
+			"large": "summit/heroes/riko/portrait-large.png",
+			"small": "summit/heroes/riko/portrait-small.png"
+		},
+		"spellbook": [
+			"blind"
+		],
+		"army": [
+			{
+				"creature": "lionDog",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "shrineMaiden",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "fireMagic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"blind": {
+					"subtype": "spell.blind",
+					"type": "SPECIAL_SPELL_LEV",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 10
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"1_kokuri": {
+		"class": "shugenja",
+		"female": false,
+		"texts": {
+			"name": "Kokuri",
+			"biography": "Kokuri is an old fox who has lived so long that his fur has turned white and his tails have stopped counting themselves. He serves the Inari shrine as a healer and diviner, reading the future in the flicker of fox-fire and the tracks of the rice harvest. The younger fox shamans revere him as a grandfather and come to him to learn the deeper spells. In battle he guides their aim, and their arrows of fox-fire rarely miss.",
+			"specialty": {
+				"description": "Increases the Speed of any Fox Shamans or Tenko by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"tooltip": "Creature Bonus: Fox Shamans",
+				"name": "Fox Shamans"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/kokuri/spec-small.png",
+			"specialtyLarge": "summit/heroes/kokuri/spec-large.png",
+			"large": "summit/heroes/kokuri/portrait-large.png",
+			"small": "summit/heroes/kokuri/portrait-small.png"
+		},
+		"spellbook": [
+			"precision"
+		],
+		"army": [
+			{
+				"creature": "lionDog",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "foxShaman",
+				"min": 2,
+				"max": 3
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "mysticism"
+			}
+		],
+		"specialty": {
+			"creature": "foxShaman",
+			"stepSize": 20
+		}
+	}
+}

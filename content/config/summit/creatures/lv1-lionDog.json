@@ -1,0 +1,94 @@
+{
+	"lionDog" : {
+		"name" : {
+			"singular" : "Lion Dog",
+			"plural" : "Lion Dogs"
+		},
+		"faction" : "summit",
+		"level" : 1,
+		"upgrades" : [ "komainu" ],
+		"cost" : {
+			"gold" : 70
+		},
+		"growth" : 12,
+		"horde" : 6,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
+		"aiValue" : 91,
+		"fightValue" : 102,
+		"hitPoints" : 10,
+		"attack" : 4,
+		"defense" : 5,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
+		"speed" : 4,
+		"doubleWide" : true,
+		"abilities" : {
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 20
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},
+			{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMax",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageMin",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		],
+		"graphics" : {
+			"animation" : "summit/battle/CSHISHI.def",
+			"map" : "summit/map/lionDog.def",
+			"iconSmall" : "summit/iconsSmall/lionDog.png",
+			"iconLarge" : "summit/iconsBig/lionDog.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 4
+			}
+		},
+		"sound" : {
+			"attack" : "HHNDATTK.wav",
+			"defend" : "HHNDDFND.wav",
+			"killed" : "HHNDKILL.wav",
+			"move" : "HHNDMOVE.wav",
+			"wince" : "HHNDWNCE.wav"
+		}
+	}
+}

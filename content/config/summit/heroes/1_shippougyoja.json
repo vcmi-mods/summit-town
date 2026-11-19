@@ -1,0 +1,61 @@
+{
+	"1_shippougyoja": {
+		"class": "shugenja",
+		"female": false,
+		"texts": {
+			"name": "Shippou-Gyoja",
+			"biography": "Shippou-Gyoja is a wandering illusionist who once showed a painting of hell so real that a warlord's guards fainted. When that warlord demanded the painting, the image faded from the scroll; when the next ruler tried to execute him, he turned into a rat and was carried off by a kite. No one knows his true age or where he sleeps. In battle he fills the minds of enemy soldiers with visions so vivid that they turn their weapons on their own comrades, and he finds this very funny.",
+			"specialty": {
+				"description": "Casts Hypnotize with maximum health threshold increased by 10% for every N hero levels, where N is the level of the targeted creature.",
+				"tooltip": "Spell Bonus: Hypnotize",
+				"name": "Hypnotize"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/shippougyoja/spec-small.png",
+			"specialtyLarge": "summit/heroes/shippougyoja/spec-large.png",
+			"large": "summit/heroes/shippougyoja/portrait-large.png",
+			"small": "summit/heroes/shippougyoja/portrait-small.png"
+		},
+		"spellbook": [
+			"hypnotize"
+		],
+		"army": [
+			{
+				"creature": "lionDog",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "shrineMaiden",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "airMagic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"hypnotize": {
+					"type": "SPECIAL_SPELL_LEV",
+					"subtype": "spell.hypnotize",
+					"updater": "TIMES_HERO_LEVEL",
+					"val": 10
+				}
+			}
+		}
+	}
+}

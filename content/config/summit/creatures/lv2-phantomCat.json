@@ -1,0 +1,56 @@
+{
+	"phantomCat" : {
+		"name" : {
+			"singular" : "Phantom Cat",
+			"plural" : "Phantom Cats"
+		},
+		"faction" : "summit",
+		"level" : 2,
+		"upgrades" : [ "nekomata" ],
+		"cost" : {
+			"gold" : 110
+		},
+		"growth" : 8,
+		"advMapAmount" : {
+			"min" : 25,
+			"max" : 30
+		},
+		"aiValue" : 160,
+		"fightValue" : 145,
+		"hitPoints" : 13,
+		"attack" : 7,
+		"defense" : 4,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"speed" : 6,
+		"abilities" : {
+			"curses" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 20,
+				"addInfo" : [ 1, 0 ]
+			}
+		},
+		"graphics" : {
+			"animation" : "summit/battle/CBAKE.def",
+			"map" : "summit/map/phantomCat.def",
+			"iconSmall" : "summit/iconsSmall/phantomCat.png",
+			"iconLarge" : "summit/iconsBig/phantomCat.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "SPRTATTK.wav",
+			"defend" : "SPRTDFND.wav",
+			"killed" : "SPRTKILL.wav",
+			"move" : "summit/SORCMOVE.wav",
+			"wince" : "SPRTWNCE.wav"
+		}
+	}
+}

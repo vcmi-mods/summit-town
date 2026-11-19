@@ -1,0 +1,60 @@
+{
+	"1_sayuki": {
+		"class": "shugenja",
+		"female": true,
+		"texts": {
+			"name": "Sayuki",
+			"biography": "Sayuki is a yama-onna, a woman of the deep mountains whose pale skin is as cold and hard as the cliffs she lives among. Hunters who meet her on the high ridges speak of eyes that glow like moonlit ice and a voice like wind in a rock crevice. She shares her stony endurance with those she protects, hardening their flesh against blade and arrow. She has no patience for the lowlands and comes down only when the mountain itself is threatened.",
+			"specialty": {
+				"description": "Casts Stone Skin with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures.",
+				"tooltip": "Spell Bonus: Stone Skin",
+				"name": "Stone Skin"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/sayuki/spec-small.png",
+			"specialtyLarge": "summit/heroes/sayuki/spec-large.png",
+			"large": "summit/heroes/sayuki/portrait-large.png",
+			"small": "summit/heroes/sayuki/portrait-small.png"
+		},
+		"spellbook": [
+			"stoneSkin"
+		],
+		"army": [
+			{
+				"creature": "lionDog",
+				"min": 10,
+				"max": 20
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "shrineMaiden",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "wisdom"
+			},
+			{
+				"level": "basic",
+				"skill": "earthMagic"
+			}
+		],
+		"specialty": {
+			"bonuses": {
+				"stoneSkin": {
+					"addInfo": 0,
+					"subtype": "spell.stoneSkin",
+					"type": "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,76 @@
+{
+	"tenko" : {
+		"name" : {
+			"singular" : "Tenko",
+			"plural" : "Tenko"
+		},
+		"faction" : "summit",
+		"level" : 5,
+		"cost" : {
+			"gold" : 550
+		},
+		"growth" : 3,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		},
+		"aiValue" : 864,
+		"fightValue" : 684,
+		"hitPoints" : 36,
+		"attack" : 14,
+		"defense" : 10,
+		"damage" : {
+			"min" : 11,
+			"max" : 15
+		},
+		"speed" : 8,
+		"shots" : 16,
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"foxTrick" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.forgetfulness",
+				"val" : 25,
+				"addInfo" : [ 2, 0 ]
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics" : {
+			"animation" : "summit/battle/CTENKO.def",
+			"map" : "summit/map/tenko.def",
+			"iconSmall" : "summit/iconsSmall/tenko.png",
+			"iconLarge" : "summit/iconsBig/tenko.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
+				"projectile" : "summit/battle/PTENKO.def",
+				"attackClimaxFrame" : 7,
+				"offset" : {
+					"upperX" : 36,
+					"upperY" : -77,
+					"middleX" : 33,
+					"middleY" : -69,
+					"lowerX" : 37,
+					"lowerY" : -53
+				},
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ]
+			}
+		},
+		"sound" : {
+			"attack" : "MONKATTK.wav",
+			"defend" : "MONKDFND.wav",
+			"killed" : "MONKKILL.wav",
+			"move" : "MONKMOVE.wav",
+			"shoot" : "MONKSHOT.wav",
+			"wince" : "MONKWNCE.wav"
+		}
+	}
+}

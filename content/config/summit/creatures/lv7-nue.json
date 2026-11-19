@@ -1,0 +1,73 @@
+{
+	"nue" : {
+		"name" : {
+			"singular" : "Nue",
+			"plural" : "Nue"
+		},
+		"faction" : "summit",
+		"level" : 7,
+		"upgrades" : [ "blackCloudNue" ],
+		"cost" : {
+			"gold" : 2000
+		},
+		"growth" : 1,
+		"advMapAmount" : {
+			"min" : 4,
+			"max" : 10
+		},
+		"aiValue" : 3626,
+		"fightValue" : 2637,
+		"hitPoints" : 150,
+		"attack" : 18,
+		"defense" : 16,
+		"damage" : {
+			"min" : 40,
+			"max" : 40
+		},
+		"speed" : 12,
+		"doubleWide" : true,
+		"abilities" : {
+			"flight" : {
+				"type" : "FLYING",
+				"subtype" : "movementFlying"
+			},
+			"slayable" : {
+				"type" : "KING",
+				"val" : 0
+			},
+			"diseaseCry" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 20,
+				"addInfo" : [ 1, 0 ]
+			},
+			"omenCry" : {
+				"type" : "MORALE",
+				"val" : -1,
+				"stacking" : "Nue Cry",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			}
+		},
+		"graphics" : {
+			"animation" : "summit/battle/CNUE.def",
+			"map" : "summit/map/nue.def",
+			"iconSmall" : "summit/iconsSmall/nue.png",
+			"iconLarge" : "summit/iconsBig/nue.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"sound" : {
+			"attack" : "TBRDATTK.wav",
+			"defend" : "TBRDDFND.wav",
+			"killed" : "TBRDKILL.wav",
+			"move" : "TBRDMOVE.wav",
+			"wince" : "TBRDWNCE.wav"
+		}
+	}
+}

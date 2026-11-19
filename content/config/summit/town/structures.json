@@ -1,0 +1,48 @@
+{
+	"summit" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+
+				"mageGuild1":     { "animation" : "summit/town-screen/buildings/summit_tahoto.def", "x" : 542,	"y" : 84,	"z" : 0, "border" : "summit/town-screen/buildings-border/summit_tahoto_hl",  "area" : "summit/town-screen/buildings-area/summit_tahoto" },
+				"mageGuild2":     { "animation" : "summit/town-screen/buildings/summit_tahoto.def", "x" : 542,	"y" : 84,	"z" : 0, "border" : "summit/town-screen/buildings-border/summit_tahoto_hl",  "area" : "summit/town-screen/buildings-area/summit_tahoto" },
+				"mageGuild3":     { "animation" : "summit/town-screen/buildings/summit_tahoto.def", "x" : 542,	"y" : 84,	"z" : 0, "border" : "summit/town-screen/buildings-border/summit_tahoto_hl",  "area" : "summit/town-screen/buildings-area/summit_tahoto" },
+				"mageGuild4":     { "animation" : "summit/town-screen/buildings/summit_tahoto.def", "x" : 542,	"y" : 84,	"z" : 0, "border" : "summit/town-screen/buildings-border/summit_tahoto_hl",  "area" : "summit/town-screen/buildings-area/summit_tahoto" },
+				"mageGuild5":     { "animation" : "summit/town-screen/buildings/summit_tahoto.def", "x" : 542,	"y" : 84,	"z" : 0, "border" : "summit/town-screen/buildings-border/summit_tahoto_hl",  "area" : "summit/town-screen/buildings-area/summit_tahoto" },
+				"tavern":         { "animation" : "summit/town-screen/buildings/summit_teahouse.def", "x" : 185,	"y" : 203,	"z" : 3, "border" : "summit/town-screen/buildings-border/summit_teahouse_hl",  "area" : "summit/town-screen/buildings-area/summit_teahouse" },
+				"fort":           { "animation" : "summit/town-screen/buildings/summit_fort.def", "x" : 0,	"y" : 253,	"z" : 5, "border" : "summit/town-screen/buildings-border/summit_fort_hl",  "area" : "summit/town-screen/buildings-area/summit_fort" },
+				"citadel":        { "animation" : "summit/town-screen/buildings/summit_citadel.def", "x" : 0,	"y" : 253,	"z" : 5, "border" : "summit/town-screen/buildings-border/summit_citadel_hl",  "area" : "summit/town-screen/buildings-area/summit_citadel" },
+				"castle":         { "animation" : "summit/town-screen/buildings/summit_castle.def", "x" : 0,	"y" : 253,	"z" : 5, "border" : "summit/town-screen/buildings-border/summit_castle_hl",  "area" : "summit/town-screen/buildings-area/summit_castle" },
+				"villageHall":    { "animation" : "summit/town-screen/buildings/summit_lord_mansion.def", "x" : 26,	"y" : 126,	"z" : 2, "border" : "summit/town-screen/buildings-border/summit_lord_mansion_hl",  "area" : "summit/town-screen/buildings-area/summit_lord_mansion" },
+				"townHall":       { "animation" : "summit/town-screen/buildings/summit_lord_mansion.def", "x" : 26,	"y" : 126,	"z" : 2, "border" : "summit/town-screen/buildings-border/summit_lord_mansion_hl",  "area" : "summit/town-screen/buildings-area/summit_lord_mansion" },
+				"cityHall":       { "animation" : "summit/town-screen/buildings/summit_lord_mansion.def", "x" : 26,	"y" : 126,	"z" : 2, "border" : "summit/town-screen/buildings-border/summit_lord_mansion_hl",  "area" : "summit/town-screen/buildings-area/summit_lord_mansion" },
+				"capitol":        { "animation" : "summit/town-screen/buildings/summit_lord_mansion.def", "x" : 26,	"y" : 126,	"z" : 2, "border" : "summit/town-screen/buildings-border/summit_lord_mansion_hl",  "area" : "summit/town-screen/buildings-area/summit_lord_mansion" },
+				"marketplace":    { "animation" : "summit/town-screen/buildings/summit_market.def", "x" : 500,	"y" : 291,	"z" : 2, "border" : "summit/town-screen/buildings-border/summit_market_hl",  "area" : "summit/town-screen/buildings-area/summit_market" },
+				"resourceSilo":   { "animation" : "summit/town-screen/buildings/summit_rice_storehouse.def", "x" : 297,	"y" : 234,	"z" : 2, "border" : "summit/town-screen/buildings-border/summit_rice_storehouse_hl",  "area" : "summit/town-screen/buildings-area/summit_rice_storehouse" },
+				"blacksmith":     { "animation" : "summit/town-screen/buildings/summit_smithy.def", "x" : 599,	"y" : 109,	"z" : 0, "border" : "summit/town-screen/buildings-border/summit_smithy_hl",  "area" : "summit/town-screen/buildings-area/summit_smithy" },
+				"special1":        { "animation" : "summit/town-screen/buildings/summit_sutra_repository.def", "x" : 496,	"y" : 122,	"z" : 1, "border" : "summit/town-screen/buildings-border/summit_sutra_repository_hl",  "area" : "summit/town-screen/buildings-area/summit_sutra_repository" },
+				"horde1":          { "animation" : "summit/town-screen/buildings/summit_shrine_approach_horde.def", "x" : 345,	"y" : 206,	"z" : 1, "border" : "summit/town-screen/buildings-border/summit_shrine_approach_horde_hl",  "area" : "summit/town-screen/buildings-area/summit_shrine_approach_horde", "hidden" : true },
+				"horde1Upgr":      { "animation" : "summit/town-screen/buildings/summit_guardian_torii_horde.def", "x" : 345,	"y" : 202,	"z" : 1, "border" : "summit/town-screen/buildings-border/summit_guardian_torii_horde_hl",  "area" : "summit/town-screen/buildings-area/summit_guardian_torii_horde", "builds" : "horde1", "hidden" : true },
+				"special2":        { "animation" : "summit/town-screen/buildings/summit_yamabushi_lodge.def", "x" : 135,	"y" : 2,	"z" : -2, "border" : "summit/town-screen/buildings-border/summit_yamabushi_lodge_hl",  "area" : "summit/town-screen/buildings-area/summit_yamabushi_lodge" },
+				"special3":        { "animation" : "summit/town-screen/buildings/summit_waterfall_trials.def", "x" : 542,	"y" : 186,	"z" : -1, "border" : "summit/town-screen/buildings-border/summit_waterfall_trials_hl",  "area" : "summit/town-screen/buildings-area/summit_waterfall_trials" },
+				"grail":          { "animation" : "summit/town-screen/buildings/summit_grail.def", "x" : 364,	"y" : 4,	"z" : -1, "border" : "summit/town-screen/buildings-border/summit_grail_hl",  "area" : "summit/town-screen/buildings-area/summit_grail" },
+				"dwellingLvl1":   { "animation" : "summit/town-screen/buildings/summit_shrine_approach.def", "x" : 359,	"y" : 206,	"z" : 1,  "border" : "summit/town-screen/buildings-border/summit_shrine_approach_hl", "area" : "summit/town-screen/buildings-area/summit_shrine_approach" },
+				"dwellingLvl2":   { "animation" : "summit/town-screen/buildings/summit_abandoned_temple.def", "x" : 0,	"y" : 96,	"z" : 0,  "border" : "summit/town-screen/buildings-border/summit_abandoned_temple_hl", "area" : "summit/town-screen/buildings-area/summit_abandoned_temple" },
+				"dwellingLvl3":   { "animation" : "summit/town-screen/buildings/summit_kagura_hall.def", "x" : 360,	"y" : 130,	"z" : 0,  "border" : "summit/town-screen/buildings-border/summit_kagura_hall_hl", "area" : "summit/town-screen/buildings-area/summit_kagura_hall" },
+				"dwellingLvl4":   { "animation" : "summit/town-screen/buildings/summit_tengu_cedar.def", "x" : 94,	"y" : 104,	"z" : 0,  "border" : "summit/town-screen/buildings-border/summit_tengu_cedar_hl", "area" : "summit/town-screen/buildings-area/summit_tengu_cedar" },
+				"dwellingLvl5":   { "animation" : "summit/town-screen/buildings/summit_inari_shrine.def", "x" : 660,	"y" : 102,	"z" : 0,  "border" : "summit/town-screen/buildings-border/summit_inari_shrine_hl", "area" : "summit/town-screen/buildings-area/summit_inari_shrine" },
+				"dwellingLvl6":   { "animation" : "summit/town-screen/buildings/summit_oni_grotto.def", "x" : 690,	"y" : 278,	"z" : 1,  "border" : "summit/town-screen/buildings-border/summit_oni_grotto_hl", "area" : "summit/town-screen/buildings-area/summit_oni_grotto" },
+				"dwellingLvl7":   { "animation" : "summit/town-screen/buildings/summit_thunder_crag.def", "x" : 628,	"y" : 0,	"z" : -3,  "border" : "summit/town-screen/buildings-border/summit_thunder_crag_hl", "area" : "summit/town-screen/buildings-area/summit_thunder_crag" },
+				"dwellingUpLvl1": { "animation" : "summit/town-screen/buildings/summit_guardian_torii.def", "x" : 356,	"y" : 202,	"z" : 1,  "border" : "summit/town-screen/buildings-border/summit_guardian_torii_hl", "area" : "summit/town-screen/buildings-area/summit_guardian_torii" },
+				"dwellingUpLvl2": { "animation" : "summit/town-screen/buildings/summit_nekomata_pagoda.def", "x" : 0,	"y" : 16,	"z" : 0,  "border" : "summit/town-screen/buildings-border/summit_nekomata_pagoda_hl", "area" : "summit/town-screen/buildings-area/summit_nekomata_pagoda" },
+				"dwellingUpLvl3": { "animation" : "summit/town-screen/buildings/summit_wind_god_shrine.def", "x" : 274,	"y" : 80,	"z" : 0,  "border" : "summit/town-screen/buildings-border/summit_wind_god_shrine_hl", "area" : "summit/town-screen/buildings-area/summit_wind_god_shrine" },
+				"dwellingUpLvl4": { "animation" : "summit/town-screen/buildings/summit_cliffside_monastery.def", "x" : 144,	"y" : 100,	"z" : 0,  "border" : "summit/town-screen/buildings-border/summit_cliffside_monastery_hl", "area" : "summit/town-screen/buildings-area/summit_cliffside_monastery" },
+				"dwellingUpLvl5": { "animation" : "summit/town-screen/buildings/summit_thousand_torii.def", "x" : 618,	"y" : 72,	"z" : 0,  "border" : "summit/town-screen/buildings-border/summit_thousand_torii_hl", "area" : "summit/town-screen/buildings-area/summit_thousand_torii" },
+				"dwellingUpLvl6": { "animation" : "summit/town-screen/buildings/summit_rashomon_gate.def", "x" : 592,	"y" : 262,	"z" : 3,  "border" : "summit/town-screen/buildings-border/summit_rashomon_gate_hl", "area" : "summit/town-screen/buildings-area/summit_rashomon_gate" },
+				"dwellingUpLvl7": { "animation" : "summit/town-screen/buildings/summit_black_cloud_summit.def", "x" : 553,	"y" : 0,	"z" : -3,  "border" : "summit/town-screen/buildings-border/summit_black_cloud_summit_hl", "area" : "summit/town-screen/buildings-area/summit_black_cloud_summit" }
+			}
+		}
+	}
+}

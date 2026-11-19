@@ -1,0 +1,55 @@
+{
+	"0_otama": {
+		"class": "taisho",
+		"female": true,
+		"texts": {
+			"name": "Otama",
+			"biography": "Otama was a shrine cat who napped on the offering box for so many years that her tail split in two and she woke up a nekomata. She still purrs when pilgrims scratch her ears, and she still steals the best fish from the offerings. The cats of the abandoned temple adore her and follow her into battle in giggling, hissing packs. Few enemies take her seriously until the lanterns go out and a hundred pairs of green eyes open in the dark.",
+			"specialty": {
+				"description": "Increases the Speed of any Phantom Cats or Nekomata by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
+				"tooltip": "Creature Bonus: Phantom Cats",
+				"name": "Phantom Cats"
+			}
+		},
+		"images": {
+			"specialtySmall": "summit/heroes/otama/spec-small.png",
+			"specialtyLarge": "summit/heroes/otama/spec-large.png",
+			"large": "summit/heroes/otama/portrait-large.png",
+			"small": "summit/heroes/otama/portrait-small.png"
+		},
+		"army": [
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			},
+			{
+				"creature": "phantomCat",
+				"min": 4,
+				"max": 7
+			}
+		],
+		"skills": [
+			{
+				"level": "basic",
+				"skill": "leadership"
+			},
+			{
+				"level": "basic",
+				"skill": "luck"
+			}
+		],
+		"spellbook": [
+			"fortune"
+		],
+		"specialty": {
+			"creature": "phantomCat",
+			"stepSize": 20
+		}
+	}
+}
